@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body, p{
+    margin: 0;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background: linear-gradient( 180deg, rgb(0 0 0) 15%, rgb(153 70 0) 100%);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 100px;
+    background-color: rgba(255,255,255,0.7);
+    background-color: transparent;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
+}
+
+.box-inner > p {
+    font-family: 'Creepster', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    color: rgb(197, 91, 0);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.github {
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+}
+
+.github img {
+    width: 40px;
+    height: 40px;
+}
