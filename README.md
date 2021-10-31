@@ -1,4 +1,4 @@
-# Pumpkins Fall
+# Halloween 2021
 
 This is a minimalistic canvas *confetti* Halloween styled! 🎃
 
