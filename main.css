@@ -24,8 +24,8 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 500px;
-    min-height: 100px;
+    max-width: 500px;
+    padding: 10px 25px ;
     background-color: rgba(255,255,255,0.7);
     background-color: transparent;
     border-radius: 5px;
@@ -36,6 +36,7 @@ canvas {
 .box-inner > p {
     font-family: 'Creepster', cursive;
     font-size: 3.5rem;
+    text-align: center;
     letter-spacing: 0.3rem;
     color: rgb(197, 91, 0);
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
